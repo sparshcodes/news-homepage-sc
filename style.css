@@ -85,6 +85,7 @@ header {
 
 .nav-container .hamburger{
     z-index: 99;
+    display: none;
 }
 
 .nav-container .hamburger div[class^=line] {
@@ -274,6 +275,9 @@ header {
         margin-bottom: 24px;
     }
 
+    .nav-container .hamburger{
+        display: block;
+    }
     .hamburger.open .line1{
         transform:translateY(-4px) rotate(45deg);
         transform-origin:left;
